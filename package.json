@@ -1,0 +1,21 @@
+{
+  "name": "notes-apps",
+  "version": "1.0.0",
+  "scripts": {
+    "start-dev": "webpack serve --open --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "test": "npm test"
+  },
+  "author": "ISC",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "description": ""
+}
